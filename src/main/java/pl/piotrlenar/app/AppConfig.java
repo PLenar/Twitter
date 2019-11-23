@@ -23,7 +23,7 @@ import java.util.Locale;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "pl.piotrlenar")
-@EnableJpaRepositories(basePackages = "pl.piotrlenar.repository")
+@EnableJpaRepositories(basePackages = "pl.piotrlenar.repositories")
 @EnableTransactionManagement
 public class AppConfig extends WebMvcConfigurerAdapter {
 
